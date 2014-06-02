@@ -3,9 +3,10 @@ Location-Library
 
 Get Function for all the location working
 
-```
-    This function is used for calculating the distance between two cordinates.
+- [X]
+This function is used for calculating the distance between two cordinates.
  
+```
     INPUT
         #lat1  - latitude of 1st point
         #long1 - longitude of 1st point
@@ -21,8 +22,10 @@ Get Function for all the location working
 ```
 
 
-```
+- [X]
     This method is used for getting the cordinate from the address of a location. 
+    
+```
     INPUT
         #address string
     OUTPUT
@@ -36,8 +39,9 @@ Get Function for all the location working
 
 ```
 
-```
+- [X]
     This method is used for getting the address information from the latitude and longitude.
+```
     INPUT
         #latCord - latitude 
         #longCord - longitude
@@ -55,9 +59,9 @@ Get Function for all the location working
 ```
 
 
+- [X]
+  This method is used for getting the address information from the latitude and longitude using Google Api( http://maps.googleapis.com )
 ```
-
-This method is used for getting the address information from the latitude and longitude using Google Api( http://maps.googleapis.com )
     INPUT
         #latCord - latitude
         #longCord - longitude
