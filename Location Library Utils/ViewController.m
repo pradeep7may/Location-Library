@@ -98,6 +98,7 @@
 #pragma mark ReverseGeoCoder Delagate
 - (void)reverseGeocoder:(MKReverseGeocoder*)geocoder didFindPlacemark:(MKPlacemark*)place
 {
+    NSLog(@"%@",place.addressDictionary);
     self.reverseGeocodeBlock(place.addressDictionary);
     [self.reverseGeocodeBlock release];
     [geocoder release];
@@ -132,10 +133,10 @@
         
     }else
     {
-        responseString  = [[NSString alloc]initWithData:result encoding:NSASCIIStringEncoding];
-        if (responseString.length)
-        {
-            NSMutableDictionary *dicResult  = [responseString JSONValue];
+            NSMutableDictionary *dicResult  = [NSJSONSerialization
+                                           JSONObjectWithData:result
+                                           options: NSJSONReadingMutableContainers
+                                           error: &error];
             if ([[dicResult objectForKey:@"status"] isEqualToString:@"OK"])
             {
                 NSArray *arrayResult = [dicResult objectForKey:@"results"];
@@ -151,10 +152,6 @@
                 block(nil);
             }
             
-        }else
-        {
-            block(nil);
-        }
         [responseString release];
     }
 }

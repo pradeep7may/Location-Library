@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9DDE9466-6113-4177-93EC-7CB4E36536F0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Location Library Utils</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>95a54009-77cc-914e-9053-1c1762806050++7793</key>
+		<string>https://10.11.5.3/svn/projects/riad_videosharing_is_f/sourcecode/trunk/ios/VideoSharing/VideoSharing/JSON</string>
+		<key>F26612566EF400042A549BFFFAD60A683EA9AC00</key>
+		<string>https://github.com/pradeep7may/Location-Library.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Location Library Utils.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>95a54009-77cc-914e-9053-1c1762806050++7793</key>
+		<string>../..Location%20Library%20Utils/JSON</string>
+		<key>F26612566EF400042A549BFFFAD60A683EA9AC00</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>95a54009-77cc-914e-9053-1c1762806050++7793</key>
+		<string>https://10.11.5.3/svn/projects</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pradeep7may/Location-Library.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F26612566EF400042A549BFFFAD60A683EA9AC00</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>95a54009-77cc-914e-9053-1c1762806050++7793</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JSON</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F26612566EF400042A549BFFFAD60A683EA9AC00</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Location-Library</string>
+		</dict>
+	</array>
+</dict>
+</plist>
